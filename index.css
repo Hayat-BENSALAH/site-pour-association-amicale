@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(140, 162, 203);
+}
+
+.container navbar{
+    border: solid 10px black;
+    width: max-content;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: space-around;
+
+    
+}
+
