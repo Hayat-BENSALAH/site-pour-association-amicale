@@ -1,16 +1,43 @@
 body {
-    background-color: rgb(140, 162, 203);
+    background-color: rgb(127, 140, 127);
 }
 
-.container navbar{
-    border: solid 10px black;
-    width: max-content;
-    height: 150px;
+header{
+    
+    border: solid 5px black;
+    width: 90%;
+    height: 150px;   
+}
+h1{
+    
+}
+.container-navbar{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: space-around;
-
     
 }
 
+header, img, footer{
+    margin-left: 60PX;
+}
+
+button{
+    border: solid 5px green;
+
+       
+}
+
+img{
+    width: 90%;
+    margin-top: 50PX;
+    padding: 0;
+}
+footer{
+    border: solid 5px black;
+    width: 90%;
+    height: 150px;
+    margin-top: 60px;
+}
+
+li{
+    list-style: none;
+}
